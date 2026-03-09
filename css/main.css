@@ -142,16 +142,67 @@ section {
     .glass-card {
         padding: 1.5rem;
     }
-
-    /* Adjust typography for mobile */
-    .hero-title {
-        font-size: 2.5rem !important;
-    }
     
     .section-title {
-        font-size: 2rem !important;
+        font-size: 2rem;
     }
 }
+
+/* Ultra-Small Mobile Devices (<= 444px) */
+@media (max-width: 444px) {
+    section {
+        padding: 40px 0;
+    }
+    
+    .hero-section {
+        padding: 100px 0 40px;
+    }
+
+    /* Recover horizontal space by reducing absolute gutters */
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* Maximize content width inside cards */
+    .glass-card {
+        padding: 1.25rem;
+    }
+
+    /* Fluid scaling for section headers on tiny screens */
+    .section-title {
+        font-size: clamp(1.5rem, 8vw, 2rem);
+    }
+
+    /* Scale down body copy slightly to prevent awkward wrapping */
+    .hero-subtitle {
+        font-size: 1.05rem;
+    }
+    
+    p {
+        font-size: 0.95rem;
+    }
+
+    /* Reduce button footprint to prevent overflow clipping */
+    .btn-lg {
+        padding: 0.6rem 0.75rem !important; /* Overriding px-5 utilities */
+        font-size: 0.85rem;
+        min-width: 130px;
+    }
+
+    .btn {
+        padding: 0.5rem 0.75rem !important;
+        font-size: 0.8rem;
+    }
+
+    /* Ensure flex containers don't force overflow on tiny screens */
+    .d-flex.gap-3 {
+        gap: 0.5rem !important;
+    }
+}
+
+
+
 
 /* UI Mockups */
 .mockup-frame {
