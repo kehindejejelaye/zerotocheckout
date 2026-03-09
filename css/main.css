@@ -124,6 +124,35 @@ section {
     text-align: center;
 }
 
+/* Responsive Spacing & Mobile Optimizations */
+@media (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .hero-section {
+        padding: 120px 0 60px;
+    }
+
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .glass-card {
+        padding: 1.5rem;
+    }
+
+    /* Adjust typography for mobile */
+    .hero-title {
+        font-size: 2.5rem !important;
+    }
+    
+    .section-title {
+        font-size: 2rem !important;
+    }
+}
+
 /* UI Mockups */
 .mockup-frame {
     background: var(--bg-surface);
