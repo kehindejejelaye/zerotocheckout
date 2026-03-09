@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Zero to Checkout - Our Mission & Vision</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .timeline-container {
+            position: relative;
+            padding-left: 3rem;
+        }
+        .timeline-item {
+            position: relative;
+            padding-bottom: 4rem;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -3rem;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background: var(--border-color);
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -3.4rem;
+            top: 0;
+            width: 13px;
+            height: 13px;
+            background: var(--primary-accent);
+            border-radius: 50%;
+            box-shadow: 0 0 15px var(--primary-accent);
+        }
+        .value-card {
+            border-top: 2px solid var(--primary-accent);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Art -->
+    <div class="bg-art-layer">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark glass-nav fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./assets/logo/ztc-logo.png" alt="Zero to Checkout" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link px-3" href="index.html">The Path</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="curriculum.html">Curriculum</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 active" href="why-us.html">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="join-cohort.html">Join the Cohort</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="join-cohort.html" class="btn btn-primary-glow px-4">Secure Your Seat</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero -->
+    <header class="hero-section">
+        <div class="container text-center">
+            <span class="hero-eyebrow text-gradient">Our Mission</span>
+            <h1 class="hero-title">End the Technical <br><span class="text-gradient">Hostage Crisis</span></h1>
+            <p class="hero-subtitle">We believe that technical execution shouldn't be a mystery. We empower architects to build production-grade systems without the "vibe-coding" baggage.</p>
+        </div>
+    </header>
+
+    <!-- Mission & Narrative -->
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="section-title">The Story of the <span class="text-gradient">Correction</span></h2>
+                    <p class="text-secondary mb-4">Zero to Checkout was born from a brutal observation: the "vibe-coding" era is dead. We saw founders losing ₦15m to developers who built fragile wrappers instead of robust architectures.</p>
+                    <p class="text-secondary mb-4">The AI Correction has arrived. Our mission is to transform manual laborers into AI Architects—builders who use agentic orchestration to ship 10x faster with 100x more reliability.</p>
+                    <div class="glass-card py-3 px-4 d-inline-block">
+                        <span class="fw-bold text-white">2026 Ready</span>
+                        <span class="text-secondary mx-2">|</span>
+                        <span class="text-secondary small">Built for the agentic economy</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="mockup-frame">
+                        <div class="mockup-header">
+                            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                        </div>
+                        <div class="p-4 bg-dark">
+                            <div class="small text-secondary mb-3">// Zero to Checkout Philosophy</div>
+                            <div class="text-white small mb-2">class <span class="text-gradient">AIArchitect</span> {</div>
+                            <div class="ps-3 text-white small mb-1">status = 'Autonomous';</div>
+                            <div class="ps-3 text-white small mb-1">rigor = 'Non-Negotiable';</div>
+                            <div class="ps-3 text-white small mb-1">hostage_risk = 0;</div>
+                            <div class="text-white small">}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="bg-surface">
+        <div class="container text-center">
+            <h2 class="section-title">Our <span class="text-gradient">Principles</span></h2>
+            <p class="section-subtitle">The architectural laws that guide every cohort and every line of agentic logic.</p>
+            
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="glass-card h-100 value-card">
+                        <h5 class="mb-3">High Signal</h5>
+                        <p class="small text-secondary">No fluff. We focus on the commercial checkout—the only metric that matters.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="glass-card h-100 value-card">
+                        <h5 class="mb-3">Agentic First</h5>
+                        <p class="small text-secondary">Legacy code is debt. We build systems that reason and use tools autonomously.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="glass-card h-100 value-card">
+                        <h5 class="mb-3">Commercial Rigor</h5>
+                        <p class="small text-secondary">Validation is payment. If it doesn't collect USD, it isn't finished.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="glass-card h-100 value-card">
+                        <h5 class="mb-3">Architectural Mastery</h5>
+                        <p class="small text-secondary">We don't teach "vibe-coding." We teach systems engineering for the AI age.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Credibility -->
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0 text-center text-lg-start">
+                    <h2 class="section-title">The Architectural <span class="text-gradient">Edge</span></h2>
+                    <p class="text-secondary">Our curriculum is built on the same stacks that power the world's most aggressive AI startups.</p>
+                    <div class="d-flex flex-wrap gap-2 mt-4 justify-content-center justify-content-lg-start">
+                        <span class="badge glass-card border-0 py-2 px-3 small">Agentic SDKs</span>
+                        <span class="badge glass-card border-0 py-2 px-3 small">Multi-Agent Systems</span>
+                        <span class="badge glass-card border-0 py-2 px-3 small">LLM-as-a-Judge</span>
+                        <span class="badge glass-card border-0 py-2 px-3 small">Global Payments</span>
+                        <span class="badge glass-card border-0 py-2 px-3 small">Edge Deployment</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="timeline-container">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h6 class="text-white">The Realization</h6>
+                            <p class="small text-secondary">Identifying the "Nigeria Factor" and the need for automated commercial resilience.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h6 class="text-white">Agentic Pivot</h6>
+                            <p class="small text-secondary">Transitioning from standard dev-ops to autonomous agentic orchestration.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h6 class="text-white">Commercial Validation</h6>
+                            <p class="small text-secondary">Hitting 100% success rate in 48-hour live checkout launches.</p>
+                        </div>
+                        <div class="timeline-item" style="padding-bottom: 0;">
+                            <div class="timeline-dot"></div>
+                            <h6 class="text-white">Global Expansion</h6>
+                            <p class="small text-secondary">Enabling architects to earn in USD while building from anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-surface">
+        <div class="container">
+            <div class="glass-card text-center py-5">
+                <h2 class="mb-4">Become an AI Architect</h2>
+                <p class="text-secondary mb-5 mx-auto" style="max-width: 500px;">Stop being a technical hostage. Take control of your architectural destiny.</p>
+                <div class="d-flex justify-content-center">
+                    <a href="join-cohort.html" class="btn btn-primary-glow btn-lg px-5">Secure Your Seat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top border-secondary border-opacity-10">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <img src="./assets/logo/ztc-logo.png" alt="Zero to Checkout" height="50">
+                    </div>
+                    <p class="text-secondary small">ZeroToCheckout isn't a tutorial; it's a transition. From manual labor to automated architectural mastery. Built for Architects.</p>
+                </div>
+                <div class="col-md-4 col-lg-2 offset-lg-2">
+                    <h6 class="mb-3 fw-bold">Masterclass</h6>
+                    <ul class="list-unstyled small text-secondary">
+                        <li class="mb-2"><a href="curriculum.html" class="text-decoration-none text-secondary">Curriculum</a></li>
+                        <li class="mb-2"><a href="join-cohort.html" class="text-decoration-none text-secondary">Join the Cohort</a></li>
+                        <li class="mb-2"><a href="why-us.html" class="text-decoration-none text-secondary">Why Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <h6 class="mb-3 fw-bold">Connect</h6>
+                    <ul class="list-unstyled small text-secondary">
+                        <li class="mb-2"><a href="contact.html" class="text-decoration-none text-secondary">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Twitter / X</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-5 pt-4 border-top border-secondary border-opacity-10 text-center text-secondary small">
+                &copy; 2026 Zero to Checkout. Built for Architects.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

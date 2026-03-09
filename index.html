@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero to Checkout | The AI Architect Masterclass</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .hero-eyebrow {
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-weight: 600;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+            background: rgba(123, 97, 255, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            border: 1px solid rgba(123, 97, 255, 0.2);
+        }
+        .hero-title {
+            font-size: clamp(2.5rem, 6vw, 5rem);
+            line-height: 1.05;
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+        }
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            line-height: 1.7;
+        }
+        .segment-card {
+            border-top: 2px solid transparent;
+        }
+        .segment-card:hover {
+            border-top-color: var(--primary-accent);
+        }
+        .agitation-text {
+            border-left: 2px solid var(--secondary-accent);
+            padding-left: 1.5rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Art -->
+    <div class="bg-art-layer">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark glass-nav fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./assets/logo/ztc-logo.png" alt="Zero to Checkout" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link px-3 active" href="index.html">The Path</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="curriculum.html">Curriculum</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="why-us.html">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="join-cohort.html">Join the Cohort</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="join-cohort.html" class="btn btn-primary-glow px-4">Secure Your Seat</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <span class="hero-eyebrow text-gradient">The AI Correction is Here</span>
+            <h1 class="hero-title">Stop Vibe-Coding. <br> Become the <span class="text-gradient">AI Architect</span>.</h1>
+            <p class="hero-subtitle">The world doesn't pay for "lines of code" anymore. It pays for <strong>Commercial Systems that Work.</strong> Go from Zero to a live Checkout in 48 hours.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="join-cohort.html" class="btn btn-primary-glow btn-lg px-5">Join the Masterclass</a>
+                <a href="curriculum.html" class="btn btn-secondary-glass btn-lg px-5">View Curriculum</a>
+            </div>
+            
+            <!-- Hero Visual: Agentic Workflow Mockup -->
+            <div class="row mt-5 pt-4 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="mockup-frame">
+                        <div class="mockup-header">
+                            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                        </div>
+                        <div class="p-4 bg-dark text-start">
+                            <div class="font-monospace small mb-3">
+                                <span class="text-success">system:</span> Initializing Agentic Checkout Flow...<br>
+                                <span class="text-success">agent_eval:</span> Logic verified. Production-grade compliance: <span class="text-gradient">READY</span><br>
+                                <span class="text-success">deployment:</span> Live at <span class="text-primary text-decoration-underline">checkout.your-idea.com</span>
+                            </div>
+                            <div class="glass-card p-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="small fw-bold">Commercial Validation Status</div>
+                                    <span class="badge bg-success">LIVE & COLLECTING USD</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- The Rub (Agitation Section) -->
+    <section class="bg-surface">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="section-title">Manual Labor or <span class="text-gradient">Architectural Mastery?</span></h2>
+                    <p class="agitation-text text-secondary mt-4">"Whether you are a founder or a dev, if you aren't building with AI-powered checkout logic, you are building technical debt. The AI Correction has arrived."</p>
+                </div>
+            </div>
+            
+            <div class="row g-4 mt-2">
+                <!-- Segment: Founder -->
+                <div class="col-md-4">
+                    <div class="glass-card segment-card h-100">
+                        <div class="text-gradient fw-bold mb-3 small">FOR THE IDEA OWNER</div>
+                        <h4 class="mb-3">End the Technical Hostage Crisis</h4>
+                        <p class="text-secondary small">Stop paying ₦15m for "vibe-coded" MVPs that break. Use AI to become your own technical co-founder and build a production-grade system for $100.</p>
+                    </div>
+                </div>
+                <!-- Segment: Dev -->
+                <div class="col-md-4">
+                    <div class="glass-card segment-card h-100">
+                        <div class="text-gradient fw-bold mb-3 small">FOR THE STUCK DEVELOPER</div>
+                        <h4 class="mb-3">Beyond the Wrapper Plateau</h4>
+                        <p class="text-secondary small">Skip the boilerplate. Master agentic orchestration and LLM-as-a-Judge evaluation to justify $5,000/mo global retainers. Earn in USD, ship 5x faster.</p>
+                    </div>
+                </div>
+                <!-- Segment: Student -->
+                <div class="col-md-4">
+                    <div class="glass-card segment-card h-100">
+                        <h4 class="mb-3">The Commercial Readiness Kit</h4>
+                        <p class="text-secondary small">Your degree isn't a "Participation Trophy." Skip the internship hunt. Launch a live, payment-collecting product that proves you are 10x more productive than a senior team.</p>
+                        <div class="text-gradient fw-bold mt-3 small">CLASS OF 2026 SPECIAL</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Promise (Feature Grid) -->
+    <section>
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-5">
+                    <h2 class="section-title">The <span class="text-gradient">48-Hour</span> Launch</h2>
+                    <p class="text-secondary">ZeroToCheckout isn't a tutorial; it's a transition. We give you the tools to handle the "Nigerian Factor" (Power, Internet, Payment failures) automatically while you sleep.</p>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="glass-card p-3">
+                                <h6 class="text-gradient mb-2">Agentic Orchestration</h6>
+                                <p class="small text-secondary mb-0">Build systems that reason and use tools, not just chat.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="glass-card p-3">
+                                <h6 class="text-gradient mb-2">Commercial Checkout</h6>
+                                <p class="small text-secondary mb-0">Live payment logic that validates your idea instantly.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="glass-card p-3">
+                                <h6 class="text-gradient mb-2">The Global Pocket</h6>
+                                <p class="small text-secondary mb-0">Collect USD from anywhere while optimizing for local friction.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="glass-card p-3">
+                                <h6 class="text-gradient mb-2">Production-Grade Eval</h6>
+                                <p class="small text-secondary mb-0">Stop "hoping" code works. Use LLM-as-a-Judge rigor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section class="bg-surface">
+        <div class="container text-center">
+            <h2 class="section-title">The Path from <span class="text-gradient">Idea to Revenue</span></h2>
+            <div class="row mt-5 g-4">
+                <div class="col-md-3">
+                    <div class="step-number text-gradient mb-2">01. ZERO</div>
+                    <p class="small text-secondary">The Infancy phase. Your idea is raw, unvalidated, and non-existent.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-number text-gradient mb-2">02. ARCHITECT</div>
+                    <p class="small text-secondary">Agentic design. We build the reasoning system and the infrastructure.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-number text-gradient mb-2">03. DEPLOY</div>
+                    <p class="small text-secondary">Rigorous evaluation. Production-grade code goes live.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-number text-gradient mb-2">04. CHECKOUT</div>
+                    <p class="small text-secondary">The Rubicon. You collect payment and validate your existence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-5">
+        <div class="container">
+            <div class="glass-card text-center py-5 position-relative overflow-hidden">
+                <div class="position-absolute top-50 start-50 translate-middle w-100 h-100" style="background: var(--grad-primary); opacity: 0.05; filter: blur(100px); pointer-events: none;"></div>
+                <h2 class="mb-4">Stop Being a Manual Laborer.</h2>
+                <p class="text-secondary mb-5 mx-auto" style="max-width: 600px;">The 2026 economy doesn't reward effort. It rewards architects. Secure your seat in the next cohort and bridge the Naira-Dollar chasm.</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="join-cohort.html" class="btn btn-primary-glow btn-lg px-5">Join the Cohort</a>
+                    <a href="contact.html" class="btn btn-secondary-glass btn-lg px-5">Ask a Question</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top border-secondary border-opacity-10">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <img src="./assets/logo/ztc-logo.png" alt="Zero to Checkout" height="50">
+                    </div>
+                    <p class="text-secondary small">ZeroToCheckout isn't a tutorial; it's a transition. From manual labor to automated architectural mastery. Built for Architects.</p>
+                </div>
+                <div class="col-md-4 col-lg-2 offset-lg-2">
+                    <h6 class="mb-3 fw-bold">Masterclass</h6>
+                    <ul class="list-unstyled small text-secondary">
+                        <li class="mb-2"><a href="curriculum.html" class="text-decoration-none text-secondary">Curriculum</a></li>
+                        <li class="mb-2"><a href="join-cohort.html" class="text-decoration-none text-secondary">Join the Cohort</a></li>
+                        <li class="mb-2"><a href="why-us.html" class="text-decoration-none text-secondary">Why Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <h6 class="mb-3 fw-bold">Connect</h6>
+                    <ul class="list-unstyled small text-secondary">
+                        <li class="mb-2"><a href="contact.html" class="text-decoration-none text-secondary">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Twitter / X</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-5 pt-4 border-top border-secondary border-opacity-10 text-center text-secondary small">
+                &copy; 2026 Zero to Checkout. Built for Architects.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

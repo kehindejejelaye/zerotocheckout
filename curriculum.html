@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Zero to Checkout - AI-Powered Payment Infrastructure</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .service-visual-panel {
+            min-height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .process-dot {
+            width: 12px;
+            height: 12px;
+            background: var(--primary-accent);
+            border-radius: 50%;
+            position: absolute;
+            left: -6px;
+            top: 0;
+            box-shadow: 0 0 15px var(--primary-accent);
+        }
+        .process-line {
+            border-left: 1px dashed var(--border-color);
+            position: relative;
+            padding-left: 2rem;
+            padding-bottom: 3rem;
+        }
+        .process-line:last-child {
+            padding-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Art -->
+    <div class="bg-art-layer">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark glass-nav fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./assets/logo/ztc-logo.png" alt="Zero to Checkout" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link px-3" href="index.html">The Path</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 active" href="curriculum.html">Curriculum</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="why-us.html">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="join-cohort.html">Join the Cohort</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="join-cohort.html" class="btn btn-primary-glow px-4">Secure Your Seat</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Hero -->
+    <header class="hero-section">
+        <div class="container text-center">
+            <span class="hero-eyebrow text-gradient">The Technical Breakdown</span>
+            <h1 class="hero-title">From Manual Laborer to <span class="text-gradient">AI Architect</span></h1>
+            <p class="hero-subtitle">The 48-hour transition. We don't just teach code; we build the end-to-end agentic systems that power commercial validation.</p>
+        </div>
+    </header>
+
+    <!-- Service Blocks (Alternating) -->
+    <section>
+        <div class="container">
+            <!-- 01. Payment Integration -->
+            <div class="row align-items-center mb-5 pb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="text-gradient fw-bold mb-2">PHASE 01. AGENTIC ORCHESTRATION</div>
+                    <h2 class="mb-4">Beyond the Wrapper Plateau</h2>
+                    <p class="text-secondary mb-4">Master the art of building systems that reason. We move beyond simple "chat" interfaces into multi-agent workflows that handle complex tasks autonomously.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> Agentic design patterns and tool-calling.</li>
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> Orchestrating multiple LLMs for specialized tasks.</li>
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> Handling state and long-running agentic processes.</li>
+                    </ul>
+                    <a href="join-cohort.html" class="btn btn-secondary-glass">View Enrollment Tiers</a>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="service-visual-panel">
+                        <div class="mockup-frame w-100">
+                            <div class="mockup-header">
+                                <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                            </div>
+                            <div class="p-3 bg-dark font-monospace small" style="color: #64ffda;">
+                                <div class="mb-1 text-secondary">// Initializing Agentic Workflow</div>
+                                <div>const architect = await ztc.createAgent({</div>
+                                <div class="ps-3">role: 'Architect',</div>
+                                <div class="ps-3">capability: ['Reasoning', 'ToolUse'],</div>
+                                <div class="ps-3">mode: 'Autonomous'</div>
+                                <div>});</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02. AI Automation -->
+            <div class="row align-items-center mb-5 pb-5 flex-lg-row-reverse">
+                <div class="col-lg-6 mb-4 mb-lg-0 offset-lg-1">
+                    <div class="text-gradient fw-bold mb-2">PHASE 02. COMMERCIAL VALIDATION</div>
+                    <h2 class="mb-4">The Live Checkout Logic</h2>
+                    <p class="text-secondary mb-4">Validation isn't a "like" on LinkedIn. It's a payment. We implement production-grade checkout flows that prove your architectural value in USD.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> Production-ready payment infrastructure.</li>
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> Global USD collection from local markets.</li>
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> Automated subscription and dunning recovery.</li>
+                    </ul>
+                    <a href="join-cohort.html" class="btn btn-secondary-glass">Join the Cohort</a>
+                </div>
+                <div class="col-lg-5">
+                    <div class="service-visual-panel">
+                        <div class="glass-card w-100 text-center py-5">
+                            <div class="mb-3 text-gradient fs-1 fw-bold">100%</div>
+                            <div class="small text-secondary">Commercial Validation Rate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 03. Experience Design -->
+            <div class="row align-items-center mb-5 pb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="text-gradient fw-bold mb-2">PHASE 03. RIGOROUS EVALUATION</div>
+                    <h2 class="mb-4">LLM-as-a-Judge Quality</h2>
+                    <p class="text-secondary mb-4">Stop "hoping" your agent works. Use automated evaluation frameworks to ensure your architectural output meets production standards every single time.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> Synthetic data generation for robust testing.</li>
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> LLM-based evaluation metrics (RECALL, FAITHFULNESS).</li>
+                        <li class="mb-2 text-secondary small d-flex align-items-center"><span class="text-gradient me-2">●</span> Continuous monitoring of agentic reliability.</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary-glass">Ask a Technical Question</a>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="service-visual-panel">
+                        <div class="glass-card w-100 p-0 overflow-hidden">
+                            <div class="bg-surface p-3 border-bottom border-secondary border-opacity-10 d-flex justify-content-between">
+                                <span class="fw-bold small">Evaluation Report</span>
+                                <span class="small text-success">PASSED</span>
+                            </div>
+                            <div class="p-4 bg-dark">
+                                <div class="mb-3">
+                                    <label class="small text-secondary d-block mb-1">Architectural Rigor</label>
+                                    <div class="progress" style="height: 8px; background: rgba(255,255,255,0.05);">
+                                        <div class="progress-bar btn-primary-glow" style="width: 98%"></div>
+                                    </div>
+                                </div>
+                                <div class="small text-secondary">Faithfulness: 0.99</div>
+                                <div class="small text-secondary">Relevance: 0.97</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="bg-surface">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h2 class="section-title">The <span class="text-gradient">48-Hour Path</span></h2>
+                    <p class="text-secondary">How we take you from architectural discovery to a live, payment-collecting deployment.</p>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="process-line">
+                        <div class="process-dot"></div>
+                        <h5 class="mb-2">Discovery & Agentic Design</h5>
+                        <p class="small text-secondary">We map the agentic workflows required to solve your specific commercial problem.</p>
+                    </div>
+                    <div class="process-line">
+                        <div class="process-dot"></div>
+                        <h5 class="mb-2">Automated Build Phase</h5>
+                        <p class="small text-secondary">Leverage agentic CLI tools to scaffold and implement the core logic at 10x speed.</p>
+                    </div>
+                    <div class="process-line">
+                        <div class="process-dot"></div>
+                        <h5 class="mb-2">Rigorous Eval & Deployment</h5>
+                        <p class="small text-secondary">Test against LLM-as-a-Judge frameworks before pushing to production.</p>
+                    </div>
+                    <div class="process-line">
+                        <div class="process-dot"></div>
+                        <h5 class="mb-2">The Checkout Moment</h5>
+                        <p class="small text-secondary">Go live. Collect USD. Prove the architecture works in the real world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section>
+        <div class="container text-center">
+            <h2 class="section-title">Why Zero to Checkout?</h2>
+            <p class="section-subtitle">We build for the 2026 economy, not the legacy 2024 wrapper world.</p>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="table-responsive glass-card p-0">
+                        <table class="table table-dark table-borderless align-middle mb-0">
+                            <thead>
+                                <tr class="border-bottom border-secondary border-opacity-10">
+                                    <th class="py-4 text-start ps-4">Capability</th>
+                                    <th class="py-4">Vibe-Coder / Wrapper</th>
+                                    <th class="py-4 text-gradient">AI Architect</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-secondary small">
+                                <tr class="border-bottom border-secondary border-opacity-5">
+                                    <td class="py-4 text-start ps-4 text-white">Logic Type</td>
+                                    <td class="py-4">Hardcoded / Simple Prompt</td>
+                                    <td class="py-4 text-white">Agentic Orchestration</td>
+                                </tr>
+                                <tr class="border-bottom border-secondary border-opacity-5">
+                                    <td class="py-4 text-start ps-4 text-white">Validation</td>
+                                    <td class="py-4">"Looks good"</td>
+                                    <td class="py-4 text-white">LLM-as-a-Judge Eval</td>
+                                </tr>
+                                <tr class="border-bottom border-secondary border-opacity-5">
+                                    <td class="py-4 text-start ps-4 text-white">Monetization</td>
+                                    <td class="py-4">None / Coming Soon</td>
+                                    <td class="py-4 text-white">Live USD Checkout</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-4 text-start ps-4 text-white">Speed to Market</td>
+                                    <td class="py-4">Weeks / Months</td>
+                                    <td class="py-4 text-white">48 Hours</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="glass-card text-center py-5">
+                <h2 class="mb-4">Ready to Stop Vibe-Coding?</h2>
+                <p class="text-secondary mb-5 mx-auto" style="max-width: 500px;">Secure your seat in the next cohort and transition from manual laborer to AI architect.</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="join-cohort.html" class="btn btn-primary-glow btn-lg px-5">Join the Cohort</a>
+                    <a href="contact.html" class="btn btn-secondary-glass btn-lg px-5">Ask a Question</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top border-secondary border-opacity-10">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <img src="./assets/logo/ztc-logo.png" alt="Zero to Checkout" height="50">
+                    </div>
+                    <p class="text-secondary small">ZeroToCheckout isn't a tutorial; it's a transition. From manual labor to automated architectural mastery. Built for Architects.</p>
+                </div>
+                <div class="col-md-4 col-lg-2 offset-lg-2">
+                    <h6 class="mb-3 fw-bold">Masterclass</h6>
+                    <ul class="list-unstyled small text-secondary">
+                        <li class="mb-2"><a href="curriculum.html" class="text-decoration-none text-secondary">Curriculum</a></li>
+                        <li class="mb-2"><a href="join-cohort.html" class="text-decoration-none text-secondary">Join the Cohort</a></li>
+                        <li class="mb-2"><a href="why-us.html" class="text-decoration-none text-secondary">Why Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <h6 class="mb-3 fw-bold">Connect</h6>
+                    <ul class="list-unstyled small text-secondary">
+                        <li class="mb-2"><a href="contact.html" class="text-decoration-none text-secondary">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Twitter / X</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-5 pt-4 border-top border-secondary border-opacity-10 text-center text-secondary small">
+                &copy; 2026 Zero to Checkout. Built for Architects.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

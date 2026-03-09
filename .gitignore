@@ -1,0 +1,35 @@
+# OS Specific Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / NPM (Future Proofing)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment / Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Temporary / Build Files
+dist/
+build/
+.temp/
+.cache/
+logs/
+*.log
+
+# Project Specific
+assets/img/tmp/

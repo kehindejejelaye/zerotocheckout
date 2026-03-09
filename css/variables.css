@@ -1,0 +1,21 @@
+:root {
+    /* Brand Palette */
+    --primary-accent: #00E5FF; /* Cyan */
+    --secondary-accent: #7B61FF; /* Deep Violet */
+    --bg-base: #0F1115; /* Dark Charcoal */
+    --bg-surface: #151923;
+    --bg-muted: #1A2030;
+    --border-color: rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --text-primary: #FFFFFF;
+    --text-secondary: #A0AEC0;
+
+    /* Gradients */
+    --grad-primary: linear-gradient(135deg, #00E5FF 0%, #7B61FF 100%);
+    --grad-glow-cyan: radial-gradient(circle at center, rgba(0, 229, 255, 0.15), transparent 70%);
+    --grad-glow-violet: radial-gradient(circle at center, rgba(123, 97, 255, 0.15), transparent 70%);
+
+    /* Spacing & Effects */
+    --glass-blur: blur(12px);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
